@@ -1,0 +1,31 @@
+Command line git commands:
+
+1. creating new repo and pushing to github
+	git init >> initializing the git repository on the same directory
+
+	create a python file or any file, enter the content and save
+
+	git status >> check the status of git repository
+
+	git add . >> to add to tracking all files under current directory
+	 or git add filename >> to add files to git individually
+
+	git add remote origin url
+
+	git push origin master
+
+2. getting the new repository from github to your local machine
+	(cloning) 
+	
+	create a directory 
+	get/copy the url from github
+	open the git bash 
+	git clone url
+	
+3. Branching : 
+	- creating branches from github
+	- creating branches on the local git repository
+		git checkout -b "branch_name"
+		-- creates and switches to new branch
+	make changes 
+	git push 
